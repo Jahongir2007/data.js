@@ -1,5 +1,5 @@
-const array = require('./data');
-const app = new array(
+const data = require('./data');
+const app = new data(
     data = ["Data.js",12,14,55,63],
     get = true,
     ofArray = {
