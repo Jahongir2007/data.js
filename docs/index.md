@@ -1,36 +1,27 @@
-## Welcome to GitHub Pages
+## Data.js framework
 
-You can use the [editor on GitHub](https://github.com/Jahongir2007/data.js/edit/main/docs/index.md) to maintain and preview the content for your website in Markdown files.
+With this framework, you can easily work in arrays.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### Usage
 
-### Markdown
+This framework syntax very simple
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+```javascript
+const Data = require("./data") // importing data.js
+var app = new Data(
+  data = ["Data.js","JavaScript","JQuery",12,15], // The main array used by Data.js (where you write your array)
+  get = true, // Indicates whether or not to accept the above values.
+  ofArray = {
+    get = 0, // Returns Data.js
+    length = true, // Returns length of array
+    sort = true // Returns sort of english alphabet of array
+  },
+  concat = ["React.js","Vue.js"], // Add new values of array
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+#### Importing Data.js
 
-### Jekyll Themes
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Jahongir2007/data.js/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
 
 ### Support or Contact
 
