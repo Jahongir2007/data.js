@@ -1,4 +1,4 @@
-![logo_transparent](https://user-images.githubusercontent.com/69193276/116788922-aea10700-aac5-11eb-866e-74e8d4dcc226.png)
+![logo](https://user-images.githubusercontent.com/69193276/116789747-d4c8a600-aac9-11eb-9651-78510e6fad1c.png)
 # Data.js
 - [Guide](jahongir2007.github.io/data.js)
 - Version: 1.0.0
