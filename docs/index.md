@@ -15,13 +15,13 @@ var app = new Data(["data.js","javascript",14,25,9,16], // the main array that t
     join: ", ", // places the desired value between array values
     copy: 1, // copies any value in the array
     constructor: true, // returns the data type
-    entries: true, // 
-    reverse: true,
-    sort: true,
-    fill: true,
-    shift: true,
-    map: Math.sqrt(),
-    pop: true
+    entries: true, // returns the data type
+    reverse: true, // displays the values ​​in reverse order.
+    sort: true, // sorts the values in alphabetical order
+    fill: "data.js", // replaces the array values ​​with the value in this method
+    shift: true, // assigns the first value
+    map: Math.sqrt(), // returns the root of array values
+    pop: true // returns the final value
 });
 ```
 
