@@ -117,3 +117,10 @@ var app = new Data([16,25,9,100],{
     map: Math.sqrt
 });
 ```
+### `pop:` method
+This method changes the length of an array.
+```js
+var app = new Data([16,25,9,100],{
+    pop: true
+});
+```
