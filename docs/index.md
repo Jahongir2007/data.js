@@ -96,3 +96,24 @@ var app = new Data(["D","B","A","C"],{
     sort: true
 });
 ```
+### Change all values ​​of the array to a single value
+To do this, you need the `fill:` method.
+```js
+var app = new Data(["D","B","A","C"],{
+    fill: "data.js"
+});
+```
+### Delete the values ​​of the array
+Try:
+```js
+var app = new Data(["D","B","A","C"],{
+    shift: true
+});
+```
+### Compute all array values ​​in one round
+That is, find the root of all the values ​​in the array:
+```js
+var app = new Data([16,25,9,100],{
+    map: Math.sqrt
+});
+```
