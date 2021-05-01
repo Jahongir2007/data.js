@@ -37,6 +37,15 @@ Since the method name is not given in Data.js, you name it with the name of the 
 var app = new Data([12,13,"Hello, world"],{
 });
 ```
+
+### Returns any value in the array
+The `get:` method will help you to do this.
+```js
+var app = new Data([12,13,"Hello, world"],{
+    get: 3
+});
+```
+
 ### Determine the number of values ​​in an array
 This is done using the `getLength:` method.
 ```javascript
