@@ -61,3 +61,23 @@ var app = new Data(["Hello world",12,16,18],{
    join: ", " 
 });
 ```
+
+### Copy any value in the array
+It's very easy:
+```js
+var app = new Data(["Hello world",12,16,18],{
+   copy: 0 
+});
+```
+
+### Check that it is array
+Try:
+```js
+var app = new Data(["Hello world",12,16,18],{
+   constructor: true,
+   /*
+    or
+   */
+   entries: true
+});
+```
