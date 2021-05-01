@@ -18,7 +18,7 @@
 ```
 #### In `app.js` file:
 ```js
-const Data = require("./data")
+const Data = require(".bin/data")
 var app = new Data(["data.js","php",14],{
       get: 0, 
       getLenght: false,
@@ -34,4 +34,6 @@ var app = new Data(["data.js","php",14],{
       pop: false
 });
 ```
+### Terms of use
+You must write a list of all methods in this framework in order. You must write a value of `false` to the method you do not want to use (otherwise` true` or some value).
 All rights reserved (c) 2021
