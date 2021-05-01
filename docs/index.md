@@ -81,3 +81,18 @@ var app = new Data(["Hello world",12,16,18],{
    entries: true
 });
 ```
+
+### Return array values ​​in reverse order
+You reverse the array values ​​using the `reverse:` method.
+```js
+var app = new Data(["Hello world",12,16,18],{
+    reverse: true
+});
+```
+### Return array values ​​in English alphabetical order
+To do this, you need the `sort:` method.
+```js
+var app = new Data(["D","B","A","C"],{
+    sort: true
+});
+```
