@@ -1,4 +1,4 @@
-## Data.js framework
+## Data.js guide
 
 With this framework, you can easily work in arrays.
 
@@ -25,10 +25,22 @@ var app = new Data(["data.js","javascript",14,25,9,16], // the main array that t
 });
 ```
 
-#### Importing Data.js
+### Importing Data.js
+To use this framework, upload it to your new file
+```javascript
+const Data = require("./data") // importing
+```
 
-
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+### First method in Data.js
+Since the method name is not given in Data.js, you name it with the name of the imported variable
+```javascript
+var app = new Data([12,13,"Hello, world"],{
+});
+```
+### Determine the number of values ​​in an array
+This is done using the `getLength:` method.
+```javascript
+var app = new Data([12,13,"Hello, world"],{
+    getLength: true
+});
+```
