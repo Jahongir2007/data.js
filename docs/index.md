@@ -7,16 +7,22 @@ With this framework, you can easily work in arrays.
 This framework syntax very simple
 
 ```javascript
-const Data = require("./data") // importing data.js
-var app = new Data(
-  data = ["Data.js","JavaScript","JQuery",12,15], // The main array used by Data.js (where you write your array)
-  get = true, // Indicates whether or not to accept the above values.
-  ofArray = {
-    get = 0, // Returns Data.js
-    length = true, // Returns length of array
-    sort = true // Returns sort of english alphabet of array
-  },
-  concat = ["React.js","Vue.js"], // Add new values of array
+const Data = require("./data"); // importing data.js
+var app = new Data(["data.js","javascript",14,25,9,16], // the main array that the framework takes
+{
+    get: 0, // returns the desired value from the array
+    getLength: true, // returns length of array
+    join: ", ", // places the desired value between array values
+    copy: 1, // copies any value in the array
+    constructor: true, // returns the data type
+    entries: true, // 
+    reverse: true,
+    sort: true,
+    fill: true,
+    shift: true,
+    map: Math.sqrt(),
+    pop: true
+});
 ```
 
 #### Importing Data.js
