@@ -16,4 +16,22 @@
       |__data.js
       |__test.js
 ```
+#### In `app.js` file:
+```js
+const Data = require("./data")
+var app = new Data(["data.js","php",14],{
+      get: 0, 
+      getLenght: false,
+      join: false,
+      copy: 1,
+      constructor: true,
+      entries: false,
+      reverse: false,
+      sort: true,
+      fill: false,
+      shift: false,
+      map: false,
+      pop: false
+});
+```
 All rights reserved (c) 2021
