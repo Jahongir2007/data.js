@@ -36,4 +36,5 @@ var app = new Data(["data.js","php",14],{
 ```
 ### Terms of use
 You must write a list of all methods in this framework in order. You must write a value of `false` to the method you do not want to use (otherwise `true` or some value).
+### End of
 All rights reserved (c) 2021
