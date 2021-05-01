@@ -53,3 +53,11 @@ var app = new Data([12,13,"Hello, world"],{
     getLength: true
 });
 ```
+
+### Add any character or letter between values ​​in the array
+For example, if you want to add a comma between array values, please:
+```js
+var app = new Data(["Hello world",12,16,18],{
+   join: ", " 
+});
+```
