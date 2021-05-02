@@ -147,5 +147,6 @@ Try:
 var app = new Data(["D","B","A","C"],{
     shift: true
 });
+```
 ### End of
 All rights reserved (c) 2021
