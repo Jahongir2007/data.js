@@ -40,6 +40,22 @@ You must write a list of all methods in this framework in order. You must write 
 
 With this framework, you can easily work in arrays.
 
+### Getting started in data.js
+
+1. Download `.zip` file Data.js in Github
+2. Create new folder for your new app
+3. Copy bin folder in Data.js:
+```
+|___bin
+      |__data.js
+      |__test.js
+```
+4. Importing Data.js your file:
+```js
+const Data = require("./bin/data.js"); // importing data.js
+var app = new Data();
+```
+
 ### Usage
 
 This framework syntax very simple
