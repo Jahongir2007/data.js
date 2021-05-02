@@ -1,6 +1,6 @@
 ![logo](https://user-images.githubusercontent.com/69193276/116789747-d4c8a600-aac9-11eb-9651-78510e6fad1c.png)
 # Data.js
-- [Guide](jahongir2007.github.io/data.js)
+- [Guide](https://jahongir2007.github.io/data.js)
 - Version: 1.0.0
 - License: MIT
 - Author: [Jahongir Sobirov](jahongir.sobirov.simplesite.com)
